@@ -17,6 +17,7 @@ button{
     border-radius: 50px;
     border-width: 0px;
     height: 80px;
+    transition: opacity 0.1s;
 }
 .op{
     background-color: rgb(232, 155, 12);
@@ -53,9 +54,12 @@ button{
     margin-top: 10px;
 }
 button:hover{
-    opacity: 0.5;
+    opacity: 0.6;
     cursor: pointer;
 }
 #sp{
     font-size: 40px;
+}
+button:active{
+    opacity: 0.2;
 }
